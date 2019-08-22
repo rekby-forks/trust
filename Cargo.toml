@@ -1,16 +1,5 @@
 [package]
 authors = ["Jorge Aparicio <japaricious@gmail.com>"]
 build = "build.rs"
-name = "trust"
+name = "qwe"
 version = "0.1.2"
-
-[build-dependencies]
-cc = { git = "https://github.com/alexcrichton/cc-rs" }
-
-[target.'cfg(not(target_os = "none"))'.dependencies]
-# Just to test 'cache: cargo'
-clap = "2.13.0"
-
-[features]
-c = []
-default = ["c"]
